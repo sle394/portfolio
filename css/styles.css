@@ -42,7 +42,7 @@ Basic styles
 		background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
 		background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		}
-	a:link, a:visited, a:active {text-decoration:none; color:#8498CD;}
+	a:link, a:visited, a:active {text-decoration:none; font-weight: 700; color:#8498CD;}
 	a:hover {text-decoration:underline; color:#949494;}
 
 	em {font-family: 'Montserrat', sans-serif; line-height: 24px;}
