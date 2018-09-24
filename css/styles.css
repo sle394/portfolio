@@ -42,20 +42,20 @@ Basic styles
 		background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
 		background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		}
-	a:link, a:visited, a:active {text-decoration:none; color:#d3222a;}
-	a:hover {text-decoration:none; color:#d3222a;}
+	a:link, a:visited, a:active {text-decoration:none; color:#8498CD;}
+	a:hover {text-decoration:underline; color:#949494;}
 
 	em {font-family: 'Montserrat', sans-serif; line-height: 24px;}
 	p {font-family: 'Montserrat', sans-serif; line-height: 24px;}
 	h1 {font-family: 'Anton', sans-serif; font-size: 38px; line-height: normal;}
-	h2 {font-family: 'Anton', sans-serif; font-size: 32px; line-height: normal;}
+	h2 {font-family: 'Anton', sans-serif; font-size: 32px; line-height: normal; padding-bottom: 10px;}
 
 	.sandy {border-radius: 50%; max-width: 100%; margin: 10px auto; border: #fff 1px solid;}
 	.sandy img {max-width: 100%; height: auto;}
 
 	.titleheader {text-align: center;}
 	.wrapper {width: 80%; margin: 0 auto; display: inline-block; padding: 20px 0px;}
-	.center {text-align: center;}
+	.center {text-align: center; display: inline;}
 	.twocols {width: 48%; display: inline-block; vertical-align: top; box-sizing: border-box;}
 		.twocols:first-of-type {text-align: left; padding-right: 10px;}
 	.project {max-width: 100%; padding: 20px 0px; text-align: center;}
