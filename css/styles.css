@@ -67,15 +67,6 @@ Basic styles
 	.button:hover span {padding-right: 25px;}
 	.button:hover span:after {opacity: 1;right: 0;}
 
-	.skillsbox {width:50%; display: inline-block; height: auto; box-sizing: border-box;font-family: 'Montserrat', sans-serif; }
-	.skillscontainer {width: 100%;background-color: #ddd;}
-	.skills {text-align: right;padding: 10px;color: white; margin: 10px 0px;}
-
-	.html {width: 90%; background-color: #8498CD;}
-	.css {width: 80%; background-color: #8498CD;}
-	.js {width: 65%; background-color: #8498CD;}
-	.php {width: 60%; background-color: #8498CD;}
-
 	/* The actual timeline (the vertical ruler) */
 	.timeline {position: relative;max-width: 1200px;margin: 0 auto;}
 	.timeline::after {content: '';position: absolute;width: 6px;background-color: #8498CD;top: 0;bottom: 0;left: 50%;margin-left: -3px;}
@@ -86,7 +77,7 @@ Basic styles
 	.left::before {content: " ";height: 0;position: absolute;top: 22px;width: 0;z-index: 1;right: 30px;border: medium solid white;border-width: 10px 0 10px 10px;border-color: transparent transparent transparent white;}
 	.right::before {content: " ";height: 0;position: absolute;top: 22px;width: 0;z-index: 1;left: 30px;border: medium solid white;border-width: 10px 10px 10px 0;border-color: transparent white transparent transparent;}
 	.right::after {left: -16px;}
-	.content {padding: 20px 30px;background-color: white;position: relative;border-radius: 6px;}
+	.content {padding: 20px 30px;background-color: white;position: relative;border-radius: 6px; box-shadow: 0 0 21px rgba(0,0,0,0.3); -webkit-box-shadow: 0 0 21px rgba(0,0,0,0.3); -moz-box-shadow: 0 0 21px rgba(0,0,0,0.3);}
 
 /* -------------------------------- 
 
