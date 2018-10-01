@@ -31,7 +31,7 @@ Reset
 		display: block;  
 	}
 .clear {clear:both;}
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Code+Pro');
 /* -------------------------------- 
 
 Basic styles
@@ -45,10 +45,10 @@ Basic styles
 	a:link, a:visited, a:active {text-decoration:none; font-weight: 700; color:#8498CD;}
 	a:hover {text-decoration:underline; color:#949494;}
 
-	em {font-family: 'Montserrat', sans-serif; line-height: 24px;}
-	p {font-family: 'Montserrat', sans-serif; line-height: 24px;}
-	h1 {font-family: 'Anton', sans-serif; font-size: 38px; line-height: normal;}
-	h2 {font-family: 'Anton', sans-serif; font-size: 32px; line-height: normal; padding-bottom: 10px;}
+	em {font-family: 'Source Code Pro', monospace; line-height: 24px;}
+	p {font-family: 'Source Code Pro', monospace; line-height: 24px;}
+	h1 {font-family: 'Oswald', sans-serif; font-size: 38px; line-height: normal;}
+	h2 {font-family: 'Oswald', sans-serif; font-size: 32px; line-height: normal; padding-bottom: 10px;}
 
 	.sandy {border-radius: 50%; max-width: 100%; margin: 10px auto; border: #fff 1px solid;}
 	.sandy img {max-width: 100%; height: auto;}
@@ -60,7 +60,7 @@ Basic styles
 		.twocols:first-of-type {text-align: left; padding-right: 10px;}
 	.project {max-width: 100%; padding: 20px 0px; text-align: center;}
 
-	.button {display: inline-block; border-radius: 4px; background-color: #8498CD; border: 1px solid #ccc; color: #FFFFFF; text-align: center; padding: 10px; box-sizing: border-box; width: 50%; transition: all 0.5s; cursor: pointer; margin: 5px auto; font-size: 16px; font-family: 'Montserrat', sans-serif; }
+	.button {display: inline-block; border-radius: 4px; background-color: #8498CD; border: 1px solid #ccc; color: #FFFFFF; text-align: center; padding: 10px; box-sizing: border-box; width: 50%; transition: all 0.5s; cursor: pointer; margin: 5px auto; font-size: 16px; font-family: 'Source Code Pro', monospace; }
 
 	.button span {cursor: pointer;display: inline-block;position: relative;transition: 0.5s;}
 	.button span:after {content: '\00bb';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s;}

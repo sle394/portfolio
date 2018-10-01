@@ -22,7 +22,7 @@ nav.primary {
 			margin:0; 
 			padding:0;
 			display: inline-block;
-			list-style-type:none; font-family: 'Anton', sans-serif;
+			list-style-type:none; font-family: 'Oswald', sans-serif;
 			}
 			nav.primary ul li a {
 				display:block;
@@ -95,7 +95,7 @@ nav.primary{display:none;}
 	position: relative;
 	line-height:60px; 
 	z-index: 400; /* needs to be lower than nav.mobile, adjust as needed */
-	background: #ECE9E6 url(../images/white.png) repeat; font-family: 'Anton', sans-serif;
+	background: #ECE9E6 url(../images/white.png) repeat; font-family: 'Oswald', sans-serif;
 	}
 	#menu-button a{
 		 color:#555;
@@ -168,7 +168,7 @@ nav.mobile ul {
 nav.mobile ul li {
 	border-top: 1px solid #454545;
 	border-bottom: 1px solid #151515;
-	position:relative;font-family: 'Montserrat', sans-serif;
+	position:relative;font-family: 'Source Code Pro', monospace;
 }
 
 /* FIRST LEVEL */
@@ -227,7 +227,7 @@ nav.mobile ul li .click{/* dropdown menu idicator arrow be sure to include this 
 	color:#fff;
 
 }
-.nav-footer {color:#ccc; position:relative; text-align:center; font-size:14px; line-height:16px; padding:15px 0; font-family: 'Montserrat', sans-serif;}
+.nav-footer {color:#ccc; position:relative; text-align:center; font-size:14px; line-height:16px; padding:15px 0; font-family: 'Source Code Pro', monospace;}
 
 /* FONT AWESOME ICONS */
 nav.mobile ul li a .fa{
